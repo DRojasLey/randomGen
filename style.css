@@ -1,0 +1,81 @@
+body {
+    background-color: #bcd7aeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotype-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+} 
+
+.logo-image {
+    width: 150px;
+    margin-top: 20px;
+
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18% ;
+}
+
+.number-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 10px solid #90bba1;
+    width: 270px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    transition: border-width 0.1s ease-in-out;
+}
+
+.result-number {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.result-announcement {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.action-button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+
+}
+
+.button {
+    background-color: #006e59;
+    border: 2px solid #B2DFDB;
+	border-radius: 50px;
+	box-shadow: none;
+	width: 10rem;
+	height: 4rem;
+	color: #B2DFDB;
+    margin: 1%;
+}
+.button:hover {
+    background: hsl(168.54545454545456deg 100% 31.56862745098039%);
+    border: 2px solid hsl(168.54545454545456deg 100% 31.56862745098039%);
+	border-radius: 50px;
+	box-shadow: none;
+}
+.button:disabled {
+    background-color: hsl(168.54545454545456deg 15% 21.568627450980394%);
+	border-radius: 50px;
+    color: white
+}
+
